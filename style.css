@@ -1,0 +1,429 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3{
+    color: #30323A;
+}
+
+a {
+    color: #30323A;
+    -webkit-transition: 0.3s color;
+    transition: 0.3s color;
+    font-size: 17px;
+}
+a:hover{
+    color: #ffa600;
+}
+
+.container{
+    padding: 0 70px;
+}
+/*--------------top-header--------------*/
+header .top-header{
+    height: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.top-header .welcome{
+    float: left;
+    color: #30323A;
+    font-size: 17px;
+}
+.top-header .liens{
+    float: right;
+}
+.liens ul{
+    margin: 0;
+    padding: 0;
+}
+.liens ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.liens ul li>a{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*-------------log-place------------*/
+.log-place{
+    height: 50px;
+    padding: 20px 0;
+}
+.log-place .logo{
+    float: left;
+}
+.logo h1{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #30323A;
+    margin: 0;
+}
+.logo span{
+    color: #F8694A;
+}
+.log-place .searching{
+    float: right;
+}
+.searching{
+    padding: 5px 0px;
+}
+.searching select, .searching input{
+    padding: 0 20px;
+    margin-right: 5px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.searching input{
+    width: 160px;
+    padding: 0 10px;
+}
+nav{
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    background: #30323A ;
+    text-align: center;
+    height: 50px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 40px;
+    color:#fff;
+}
+nav ul li:hover{
+    background: #F8694A;
+    color: #fff;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+section{
+    padding: 10px 10px;
+}
+section .call-action, section .product, section .shopping{
+    display: inline-block;
+    vertical-align: top;
+}
+.action1 span{
+    background: #30323A;
+    color: #fff;
+    padding: 10px 10px;
+    position: absolute;
+}
+.action1 button{
+    position: absolute;
+    top: 560px;
+    left: 7px;
+    width: 280px;
+    padding: 15px 0;
+    background: #F8694A;
+    color: #fff;
+    border: 1px solid #F8694A;
+    cursor: pointer;
+}
+.action1 button:hover{
+    background: #30323A;
+    border: #30323A;
+}
+.slider{
+    margin: 0 10px;
+    background: #30323A;
+    color: #fff;
+    padding: 0 0 10px;
+    box-shadow: 1px 3px 4px #30323A;
+}
+.slider .information{
+    padding: 0 10px;
+}
+.product{
+    width: 650px;
+}
+.slider img{
+    width: 600px;
+    height: 350px;
+    
+}
+.slider-shop{
+    position: absolute;
+    top: 360px;
+    left: 700px;
+}
+.slider-shop h1, .slider-shop h2{
+    color: #F8694A;
+    font-size: 25px;
+}
+.slider-shop h1{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 25px;
+}
+.slider-shop h2{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.slider-shop a{
+    color: #fff;
+    background: #30323A;
+    padding: 15px 40px;
+    border: #30323A;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.slider-shop a:hover{
+    background: #F8694A;
+}
+
+.product .slider img{
+    margin-bottom: 10px;
+}
+.product  img{
+    width: 100%;
+}
+.shopping{
+    padding: 0;
+    margin: 0;
+    
+}
+.shopping .compare, .shopping .cart, .shop-poll{
+    padding: 40px 40px 40px 40px;
+    margin: 20px 0px;
+    background: #30323A;
+    color: #F6F7F8 !important;
+}
+.shopping .compare{
+    margin: 0;
+}
+.shop-poll{
+    border-bottom: none !important;
+}
+.compare h2, .cart h2, .shop-poll h2{
+    margin: 0;
+    color: #F6F7F8;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.compare a, .cart a{
+    color: #F8694A;
+}
+.compare a:hover, .cart a:hover{
+    color: #F6F7F8;
+}
+.info-compare, .info-cart, .shop{
+    margin: 20px 0;
+}
+.info-compare span , .info-cart span{
+    display: block;
+}
+.shopping button{
+    float: right;
+}
+.shopping button{
+    color: #FFF;
+    background-color: #F8694A;
+    cursor: pointer;
+    border: 1px solid #F8694A;
+    border-radius: 3px;
+    height: 30px;
+}
+.shopping button:hover{
+    background: #30323A;
+    color: #fff;
+}
+
+/*--------------product-sell--------------*/
+
+.product-popular,.selling-product{
+    display: inline-block;
+    vertical-align: top;
+}
+.product-popular{
+    width: 220px;
+    /* background: rgb(236, 236, 236); */
+    border-radius: 5px;
+    padding: 0 15px 10px 15px;
+}
+.product-popular .popula{
+    margin-bottom: 50px;
+}
+.product-popular h2{
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px 0px;
+    color: rgb(90, 90, 90) !important;
+}
+.product-popular .popular-title, .product-popular .color-title{
+    position: relative;
+}
+.product-popular .popular-title:after, .product-popular .color-title:after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 3px;
+    width: 60px;
+    background-color: #F8694A;
+}
+.product-popular a{
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 90, 90) !important;
+}
+.product-popular a:hover{
+    color: #F8694A !important;
+}
+
+.product-popular .color-detail{
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 90, 90) !important;
+}
+.product-popular label{
+    padding: 0 10px;
+}
+
+.product-sell{
+    margin: 20px 0;
+}
+.selling-product{
+    margin: 0 30px;
+}
+.selling-product-title{
+    position: relative;
+}
+.selling-product-title:after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 3px;
+    width: 60px;
+    background-color: #F8694A;
+}
+.selling-product h1{
+    margin: 0;
+    padding: 15px 0px;
+    border-bottom: 1px solid #ccc;
+    color: rgb(90, 90, 90) !important;
+}
+.selling-product .categorie1, .selling-product .categorie2, .selling-product .categorie3{
+    display:  inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.selling-product .categorie1{
+    margin-left: 20px;
+}
+.selling-product img{
+    width: 200px;
+}
+.categorie2 .product-cat{
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.selling-product .product-cat{  
+    margin: 50px 0px;
+}
+.product-cat .product-info h3{
+    margin: 0 0 10px;
+}
+.product-cat .product-info h3 a{
+    font-size: 22px;
+    text-decoration: none;
+}
+.product-cat .check-button{
+    margin-top: 15px;
+    height: 40px;
+}
+.check-button a{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    background: #30323A;
+    border: 1px solid #30323A;
+    cursor: pointer;
+    display: none;
+}
+
+.product-cat{
+    cursor: pointer;
+}
+.product-cat:hover{
+    box-shadow: 1px 2px 3px 3px #ccc;
+}
+
+
+.selling-product, .selling{
+    display: inline-block;
+}
+.selling-product{
+    margin-right: 20px;
+}
+.selling{
+    vertical-align: top;
+}
+
+.all-product{
+    text-align: center;
+}
+.all-product button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #30323A;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+.all-product button:hover{
+    background: #F8694A;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background: #30323A;
+    color: #ccc;
+    padding: 30px 0;
+}
+footer a{
+    color: #ccc;
+}
+.footer-liens-top ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-liens-top ul li{
+    display: inline-block;
+    list-style: none;
+}
+.footer-liens-bottom ul{
+    margin: 30px 0;
+    padding: 0;
+}
+.footer-liens-bottom ul li{
+    display: inline-block;
+    list-style: none;
+}
+footer p{
+    margin: 0;
+    
+}
